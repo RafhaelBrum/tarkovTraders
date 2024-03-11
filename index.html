@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarkov Traders</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="/">Traders</a>
+            <ul class="nav-list">
+                <li><a href="/"></a></li>
+                <li><a href="/"></a></li>
+                <li><a href="/"></a></li>
+                <li><a href="https://github.com/RafhaelBrum"><img src="media/github.png" width="16" height="16" alt="github"> GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="traders">
+            <ul>
+                <li class="trader-item prapor" onclick="toggleMenu('prapor')"><img src="/media/traders/prapor.png" alt="prapor">Prapor</li>
+                <li class="trader-item therapist" onclick="toggleMenu('therapist')"><img src="/media/traders/therapist.png" alt="therapist">Therapist</li>
+                <li class="trader-item skier" onclick="toggleMenu('skier')"><img src="/media/traders/skier.png" alt="skier">Skier</li>
+                <li class="trader-item peacekeeper" onclick="toggleMenu('peacekeeper')"><img src="/media/traders/peacekeeper.png" alt="peacekeeper">Peacekeeper</li>
+                <li class="trader-item mechanic" onclick="toggleMenu('mechanic')"><img src="/media/traders/mechanic.png" alt="mechanic">Mechanic</li>
+                <li class="trader-item ragman" onclick="toggleMenu('ragman')"><img src="/media/traders/ragman.png" alt="ragman">Ragman</li>
+                <li class="trader-item jaeger" onclick="toggleMenu('jaeger')"><img src="/media/traders/jaeger.png" alt="jaeger">Jaeger</li>
+                <li class="trader-item fence" onclick="toggleMenu('fence')"><img src="/media/traders/fence.png" alt="fence">Fence</li>
+                <li class="trader-item lightkeeper" onclick="toggleMenu('lightkeeper')"><img src="/media/traders/lightkeeper.png" alt="lightkeeper">Lightkeeper</li>
+            </ul>
+        </div>
+
+        <!-- Menus de Traders -->
+        <div class="menu" id="praporMenu">
+            <div class="desc-prapor">
+                <h1>Prapor</h1>
+                <h2>Pavel Yegorovich Romanenko</h2><br>
+                <h2>Origin: Russian Federation</h2>
+                <h2>Location: Verkhneye urban settlement</h2><br><br>
+                <h3><span class="bold">Wares:</span> 
+                    <ul>
+                        <li>Post-Soviet Bloc Weapons</li>
+                        <li>Gear</li>
+                        <li>Magazines</li>
+                        <li>Ammo</li>
+                        <li>Grenades</li>
+                        <li>Mods</li>
+                    </ul>
+                </h3><br>
+                <h3>Currency: Roubles (₽)</h3><br>
+                <p>"The Warrant officer in charge of supply warehouses on the sustaining base enforcing the Norvinsk region blockade. Secretly supplied the BEAR PMC operators with weapons, ammunition, and various other provisions he had at his disposal during the Contract Wars."</p><br>
+                <a class="wiki-page" href="https://escapefromtarkov.fandom.com/wiki/Prapor">Wiki Page 🔗</a>
+            </div>
+        </div>
+
+        <div class="menu" id="therapistMenu">
+            <div class="desc-therapist">
+                <h1>Therapist</h1>
+                <h2>Elvira Khabibullina</h2><br>
+                <h2>Origin: Russian Federation</h2>
+                <h2>Location: Tarkov City</h2><br><br>
+                <h3><span class="bold">Wares:</span> 
+                    <ul>
+                        <li>Medicine</li>
+                        <li>Provision</li>
+                        <li>Keys</li>
+                        <li>Storage Containers</li>
+                        <li>Maps</li>
+                    </ul>
+                </h3><br>
+                <h3>Currency: Roubles (₽) | Euros (€)</h3><br>
+                <p>"Head of the Trauma Care Department of the Tarkov Central City Hospital."</p><br>
+                <a class="wiki-page" href="https://escapefromtarkov.fandom.com/wiki/Therapist">Wiki Page 🔗</a>
+            </div>
+        </div>
+
+        <div class="menu" id="skierMenu">
+            <div class="desc-skier">
+                <h1>Skier</h1>
+                <h2>Alexander Fyodorovich Kiselyov</h2><br>
+                <h2>Origin: Russian Federation</h2>
+                <h2>Location: Tarkov Customs District</h2><br><br>
+                <h3><span class="bold">Wares:</span> 
+                    <ul>
+                        <li>Weapons</li>
+                        <li>Magazines</li>
+                        <li>Ammo</li>
+                        <li>Mods</li>
+                        <li>Storage Containers</li>
+                        <li>Euros</li>
+                    </ul>
+                </h3><br>
+                <h3>Currency: Roubles (₽) | Dollars ($) | Euros (€)</h3><br>
+                <p>"Previously a port zone customs terminal employee, who initially oversaw dealings of the terminal's goods. Over the course of the conflict, he put together a gang of thugs in order to grab everything of value that he could lay his hands on in the vicinity of the terminal."</p><br>
+                <a class="wiki-page" href="https://escapefromtarkov.fandom.com/wiki/Skier">Wiki Page 🔗</a>
+            </div>
+        </div>
+
+        <div class="menu" id="peacekeeperMenu">
+            <div class="desc-peacekeeper">
+                <h1>Peacekeeper</h1>
+                <h2>Tadeusz Pilsudski</h2><br>
+                <h2>Origin: Republic of Poland</h2>
+                <h2>Location: Tarkov Port District</h2><br><br>
+                <h3><span class="bold">Wares:</span> 
+                    <ul>
+                        <li>Western/NATO Weapons</li>
+                        <li>Gear</li>
+                        <li>Magazines</li>
+                        <li>Ammo</li>
+                        <li>Grenades</li>
+                        <li>Mods</li>
+                        <li>Containers</li>
+                        <li>Dollars</li>
+                    </ul>
+                </h3><br>
+                <h3>Currency: Dollars ($)</h3><br>
+                <p>"UN peacekeeping Force supply officer, based in one of the central checkpoints leading to the Tarkov port zone. The blue helmets have been seen poking their heads into small deals from the very beginning of the conflict, buying everything of value in exchange for western weapons, ammo, and all kinds of military equipment."</p><br>
+                <a class="wiki-page" href="https://escapefromtarkov.fandom.com/wiki/Peacekeeper">Wiki Page 🔗</a>
+            </div>
+        </div>
+
+        <div class="menu" id="mechanicMenu">
+            <div class="desc-mechanic">
+                <h1>Mechanic</h1>
+                <h2>Sergey Arsenyevich Samoylov</h2><br>
+                <h2>Origin: Unknown</h2>
+                <h2>Location: Chemical Plant Factory within the Customs District</h2><br><br>
+                <h3><span class="bold">Wares:</span> 
+                    <ul>
+                        <li>Western/NATO Weapons</li>
+                        <li>Magazines</li>
+                        <li>Ammo</li>
+                        <li>Mods</li>
+                        <li>Keycards</li>
+                        <li>Special Equipment</li>
+                        <li>Storage Containers</li>
+                    </ul>
+                </h3><br>
+                <h3>Currency: Roubles (₽) | Euros (€) | Bitcoin (₿)</h3><br>
+                <p>"A former chemical plant foreman, who from the very beginning of the conflict took to weapon modification, repairs, and maintenance of complex equipment and technology. He prefers clandestine solo living and operates discreetly, while placing complicated and challenging tasks above all else."</p><br>
+                <a class="wiki-page" href="https://escapefromtarkov.fandom.com/wiki/Mechanic">Wiki Page 🔗</a>
+            </div>
+        </div>
+
+        <div class="menu" id="ragmanMenu">
+            <div class="desc-ragman">
+                <h1>Ragman</h1>
+                <h2>Arshavir Sarkisovich Abramyan</h2><br>
+                <h2>Origin: Republic of Armenia</h2>
+                <h2>Location: Tarkov's central market</h2><br><br>
+                <h3><span class="bold">Wares:</span> 
+                    <ul>
+                        <li>Tactical Clothing</li>
+                        <li>Body Armor</li>
+                        <li>Tactical Rigs</li>
+                        <li>Headgear</li>
+                        <li>Backpacks</li>
+                        <li>Other gear</li>
+                    </ul>
+                </h3><br>
+                <h3>Currency: Roubles (₽)</h3><br>
+                <p>"Previously, he worked as a director in a shopping center located in the suburbs of Tarkov. Now dealing in mostly clothing- and gear-related items, anywhere from sunglasses to body armor."</p><br>
+                <a class="wiki-page" href="https://escapefromtarkov.fandom.com/wiki/Ragman">Wiki Page 🔗</a>
+            </div>
+        </div>
+
+        <div class="menu" id="jaegerMenu">
+            <div class="desc-jaeger">
+                <h1>Jaeger</h1>
+                <h2>Ivan Yegorovich Kharitonov</h2><br>
+                <h2>Origin: Russian Federation</h2>
+                <h2>Location: Priozersk Natural Reserve</h2><br><br>
+                <h3><span class="bold">Wares:</span> 
+                    <ul>
+                        <li>Post-Soviet Bloc Weapons</li>
+                        <li>Magazines</li>
+                        <li>Ammo</li>
+                        <li>Mods</li>
+                        <li>Gear</li>
+                        <li>Special Equipment</li>
+                        <li>Storage Containers</li>
+                    </ul>
+                </h3><br>
+                <h3>Currency: Roubles (₽)</h3><br>
+                <p>"Before the conflict, he worked as a hunter in the Priozersk Natural Reserve under the State Hunting Service. A professional hunter and survival specialist. Even now, he still guards the reserve's hunting grounds from various aggressive individuals."</p><br>
+                <a class="wiki-page" href="https://escapefromtarkov.fandom.com/wiki/Jaeger">Wiki Page 🔗</a>
+            </div>
+        </div>
+
+        <div class="menu" id="fenceMenu">
+            <div class="desc-fence">
+                <h1>Fence</h1>
+                <h2>Real Name Unknown</h2><br>
+                <h2>Origin: Unknown</h2>
+                <h2>Location: A network of trading outlets all over the Norvinsk region</h2><br><br>
+                <h3><span class="bold">Wares:</span> 
+                    <ul>
+                        <li>Anything sold to him</li>
+                    </ul>
+                </h3><br>
+                <h3>Currency: Roubles (₽)</h3><br>
+                <p>"The conflict had barely started when Fence began setting up anonymous outlets for buying and selling goods. Keeping incognito, he nevertheless managed to put together a well-organised smuggler network, operating all over the Norvinsk region."</p><br>
+                <a class="wiki-page" href="https://escapefromtarkov.fandom.com/wiki/Fence">Wiki Page 🔗</a>
+            </div>
+        </div>
+
+        <div class="menu" id="lightkeeperMenu">
+            <div class="desc-fence">
+                <h1>Lightkeeper</h1>
+                <h2>Farit Akhmadullovich Genatulin</h2><br>
+                <h2>Origin: Unknown</h2>
+                <h2>Location: Lighthouse at the peninsula territory on Lighthouse</h2><br><br>
+                <h3><span class="bold">Wares:</span> 
+                    <ul>
+                        <li>Currently none</li>
+                    </ul>
+                </h3><br>
+                <h3>Currency: Dollars ($) | Euros (€)</h3><br>
+                <p>"The current Tarkov Lighthouse warden, a specialist in radio and naval electronic devices."</p><br>
+                <a class="wiki-page" href="https://escapefromtarkov.fandom.com/wiki/Lightkeeper">Wiki Page 🔗</a>
+            </div>
+        </div>
+    </main>
+<footer>
+    <p>Made by <a href="https://github.com/RafhaelBrum"><span>Rafhael Brum</span></a></p>    
+</footer>
+
+
+</body>
+
+</html>
