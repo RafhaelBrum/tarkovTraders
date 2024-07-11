@@ -49,17 +49,6 @@ main {
     /* color: #fff; */
 }
 
-.nav-list {
-    display: flex;
-    list-style: none;
-}
-
-.nav-list li {
-    letter-spacing: 1px;
-    margin-left: 32px;
-    
-}
-
 .traders {
     text-align: center;
     padding: 25px;
